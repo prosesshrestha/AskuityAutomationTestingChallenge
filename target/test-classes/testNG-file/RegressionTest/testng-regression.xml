@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AskuityAutomationTestingChallenge" parallel = "tests" thread-count="3">
+	<parameter name="Browser" value="chrome" />
+	<test name="Tests">
+		<classes>
+			<class
+				name="com.automationpractice.test.RegressionTest">
+				<include value = "ShoppingPageCheckoutFunctionalityTest" />
+				</class>
+		</classes>
+	</test>
+</suite>
